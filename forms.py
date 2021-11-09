@@ -4,4 +4,4 @@ from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationE
 
 class SearchForm(FlaskForm):
     url = StringField('Search', render_kw={"placeholder": "Search"}, validators=[DataRequired()])
-    submit = SubmitField('Search')
+    submit = SubmitField('Search', render_kw={"class": "btn btn-success"})

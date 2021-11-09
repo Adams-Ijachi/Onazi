@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 0 4rem;
+    background-color: #549c54; 
+}
+img{
+    width: 8%;
+ 
+}
+
+.nav-links{
+    display: flex;
+    
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    padding: 1rem !important;
+    color: #fff;
+    font-size: 2rem !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-links li a:hover  {
+    color:#000;
+    transition: all 0.3s ease 0s;
+}
+
+/*-----Banner------*/
+.banner{
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+    
+}
+
+.banner-paragraph{
+    font-weight: 400;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-size: 14px;
+    color: #549c54;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.banner-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+    color: #3e4c59;
+
+}
+.banner > div{
+    margin-top: .8rem;
+}
+.banner-footer{
+    margin-top: 1.5rem !important;
+    color: #3e4c59;
+    font-size: 1.5rem;
+
+}
+.banner-footer > form{
+    margin-top: .5rem;
+}
+.banner-footer > form input{
+    padding: .3rem;
+}
+.banner-footer > form button{
+    padding: .3rem .8rem;
+}
+
+/*-----empty footer-----*/
+.empty-div{
+    height: 300px;
+    background-color: #3e4c59;
+    margin-top: 320px;
+}
+
+/*-----Footer-----*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: ; */
+    text-align: center;
+    height: 100px;
+}

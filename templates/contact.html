@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container mt-5">
+        <h3 class="text-center" style="font-size:4rem;"> Contact Us</h3>
+
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Name</label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+
+            <div class="form-group" style="padding: 0px 19px 0px 19px;">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            </div>
+          
+           <div class="btn-con" style="padding: 0px 19px 0px 19px;">
+            <button type="submit"  class="btn btn-primary btn-lg btn-block">Submit</button>
+           </div>
+          </form>
+    </div>
+ 
+{% endblock %}
+
+{% block title %}
+    Contact
+{% endblock %}

@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>
-        {% block title %}
+        {% block title %} 
         {% endblock %}
 
     </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-
-
-    <nav>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-    </nav>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.jpeg') }}" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('index') }}" >Home</a></li>
+                <li><a href="{{ url_for('about') }}"> About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     {% with messages = get_flashed_messages(with_categories=true) %}  
     {% if  messages %}  
         {% for category, message in messages %}  
         {% if category == 'Error' %}
-            <div class="alert alert-warning" role="alert"> 
-                {{ message }}  Error</div>
+            <div class="alert alert-danger" style="margin-top: 20px;" role="alert"> 
+               <strong> {{ message }}  Error </strong>
+            </div>
         {% else %}
-            <div class="alert alert-{{ category }}" role="alert">
-                {{ message }}  {{ category }}</div>
+            <div class="alert alert-success" style="margin-top: 20px;" role="alert">
+                <strong> {{ message }}   </strong>
+            </div>
         {% endif %} 
           {% endfor %}  
         {% endif %}  
@@ -35,6 +45,18 @@
 
     {% block content %}
     {% endblock %}
+
+
+    <section class="empty-div">
+
+    </section>
+
+    <!-------Footer------->
+    <footer>
+        <div class="footer-text">
+            <p>&copy 2021 Terms of service | Privacy Policy</p>
+        </div>
+    </footer>
 
     
 </body>

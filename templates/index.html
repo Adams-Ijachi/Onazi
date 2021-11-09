@@ -2,14 +2,27 @@
 
 {% block content %}
 
-    <h1>Home</h1>
+<section class="banner">
+    <div class="banner-heading">
+        <h2>Free URL scanner to detect phishing & fraudulent sites</h2>
+    </div>
+    <div class="banner-paragraph">
+        <p>URL checker is a free tool to detect malicious URLs including malware and phishing links.
+            Safe link checker scan URLs for malware, viruses, and phishing links.</p>
+    </div>
+    <div class="banner-footer">
+        <h3>Check site status</h3>
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+           
+            {{ form.url }}
+            {{ form.submit }}
+        </form>
+    </div>
+</section>
 
-    <form action="" method="post">
-        {{ form.hidden_tag() }}
-        {{ form.url.label }}
-        {{ form.url }}
-        {{ form.submit }}
-    </form>
+
+
 {% endblock %}
 
 {% block title %}
