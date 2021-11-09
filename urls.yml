@@ -1,0 +1,341 @@
+-
+    name: MyCrypto
+    url: 'https://mycrypto.com'
+    featured: true
+    description: MyCrypto is a free, open-source interface for interacting with the blockchain
+    email: support@mycrypto.com
+    twitter: https://twitter.com/MyCrypto
+    facebook: https://www.facebook.com/mycryptoHQ/
+    medium: https://medium.com/@MyCrypto
+    linkedin: https://www.linkedin.com/company/mycrypto/
+    addresses:
+     ETH:
+      - '0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520'
+-
+    name: MetaMask
+    url: 'https://metamask.io'
+    featured: true
+    description: MetaMask brings Ethereum to your web browser
+-
+    name: MyCryptoAPI
+    url: 'https://mycryptoapi.com'
+-
+    name: Ethereum
+    url: 'https://ethereum.org'
+    description: Ethereum Foundation's official website
+    featured: true
+-
+    name: MyEtheroll
+    url: 'https://myetheroll.com'
+-
+    name: Ledger Wallet
+    featured: true
+    url: 'https://ledgerwallet.com'
+    description: Hardware wallet provider
+-
+    name: Etherscan
+    url: 'https://etherscan.io'
+    featured: true
+    addresses:
+      ETH:
+      - '0x71c7656ec7ab88b098defb751b7401b5f6d8976f'
+    description: Block explorer
+-
+    name: EtherID
+    url: 'http://etherid.org'
+-
+    name: Ether Cards
+    url: 'http://ether.cards'
+-
+    name: Etheroll
+    url: 'https://etheroll.com'
+-
+    name: ETHNews
+    url: 'https://ethnews.com'
+-
+    name: ETHEX
+    url: 'http://ethex.market'
+-
+    name: Ethereum Dev
+    url: 'https://ethereumdev.io'
+-
+    name: Ethereum Dev
+    url: 'https://ethereumdev.io'
+-
+    name: Ethereum Dev Korea
+    url: 'https://ethereumdev.kr'
+-
+    name: Dether
+    url: 'https://dether.io'
+-
+    name: Ethermine
+    url: 'https://ethermine.org'
+-
+    name: Slaask
+    url: 'https://slaask.com'
+-
+    name: EtherBTC
+    url: 'https://etherbtc.io'
+-
+    name: Ethereal Capital
+    url: 'http://ethereal.capital'
+-
+    name: Etherisc
+    url: 'https://etherisc.com'
+-
+    name: Ether Echo
+    url: 'https://etherecho.com'
+-
+    name: Ethereum World News mailing list
+    url: 'https://ethereum.os.tc'
+-
+    name: MetaJack
+    url: 'https://metajack.im'
+-
+    name: Etherhub
+    url: 'https://etherhub.io'
+-
+    name: Ethereum Network
+    url: 'https://ethereum.network'
+-
+    name: Ethereum Linking Desk
+    url: 'https://ethereum.link'
+-
+    name: Ethereum.com (for sale)
+    url: 'https://ethereum.com'
+-
+    name: Prethereum
+    url: 'https://prethereum.com'
+-
+    name: Etheraus
+    url: 'http://etheraus.com'
+-
+    name: 1Ethereum
+    url: 'http://1ethereum.ru'
+-
+    name: EthereumNZ
+    url: 'http://ethereum.nz'
+-
+    name: nethereum
+    url: 'http://nethereum.com'
+-
+    name: metamas
+    url: 'http://metamas.com'
+-
+    name: Metabase
+    url: 'http://metabase.com'
+-
+    name: FundRequest
+    url: 'https://fundrequest.io'
+-
+    name: Dentacoin
+    url: 'https://dentacoin.com'
+-
+    name: Etherplan
+    url: 'http://etherplan.com'
+-
+    name: EtherAlert
+    url: 'https://etheralert.io'
+-
+    name: Bity
+    url: 'https://bity.com'
+    description: Provider of crypto swap services
+-
+    name: Changelly
+    featured: true
+    description: Simple cryptocurrency exchange
+    url: 'https://changelly.com'
+-
+    name: Coinbase
+    url: 'https://coinbase.com'
+-
+    name: CryptoCompare
+    url: 'https://cryptocompare.com'
+-
+    name: Easy Ethereum
+    url: 'https://easyeth.com'
+-
+    name: Etherchain
+    featured: true
+    description: 'An Ethereum blockchain explorer'
+    url: 'https://etherchain.org'
+-
+    name: Ether Domain
+    url: 'http://etherdomain.com'
+-
+    name: Ethernodes
+    url: 'http://ethernodes.org'
+-
+    name: Ethpool
+    url: 'http://ethpool.org'
+-
+    name: Everex Wallet
+    url: 'https://everex.cash'
+-
+    name: Everex Wallet
+    url: 'https://everex.io'
+-
+    name: Kraken
+    featured: true
+    description: Cryptocurrency exchange
+    url: 'https://kraken.com'
+-
+    name: MyEtherWallet Knowledge Base
+    url: 'https://myetherwallet.github.io/knowledge-base'
+-
+    name: ShapeShift
+    featured: true
+    description: Simple cryptocurrency exchange
+    url: 'https://shapeshift.io'
+-
+    name: webtask
+    url: 'https://webtask.io'
+-
+    name: Steem Supply
+    url: 'http://steem.supply'
+-
+    name: Aragon
+    featured: true
+    url: 'https://aragon.one'
+-
+    name: Bittrex
+    featured: true
+    description: Cryptocurrency exchange
+    url: 'https://bittrex.com'
+-
+    name: Coindash
+    featured: true
+    description: Cryptocurrency exchange
+    url: 'https://coindash.io'
+-
+    name: Decentraland
+    featured: true
+    url: 'https://decentraland.org'
+-
+    name: District0x
+    featured: true
+    url: 'https://district0x.io'
+-
+    name: EOS
+    featured: true
+    url: 'https://eos.io'
+-
+    name: EtherDelta
+    featured: true
+    url: 'https://etherdelta.github.io'
+-
+    name: Indorse
+    featured: true
+    url: 'https://indorse.io'
+-
+    name: KICKICO
+    featured: true
+    url: 'https://kickico.com'
+-
+    name: Monetha
+    featured: true
+    url: 'https://monetha.io'
+-
+    name: Numerai
+    featured: true
+    url: 'https://numer.ai'
+-
+    name: OmiseGO
+    featured: true
+    url: 'https://omg.omise.co'
+-
+    name: Starbase
+    featured: true
+    url: 'https://starbase.co'
+-
+    name: Status
+    featured: true
+    url: 'https://status.im'
+-
+    name: Substratum
+    featured: true
+    url: 'https://substratum.net'
+-
+    name: TenX
+    featured: true
+    url: 'https://tenx.tech'
+-
+    name: Ubiq
+    featured: true
+    url: 'https://ubiqsmart.com'
+-
+    name: Unocoin
+    featured: true
+    url: 'https://unocoin.com'
+-
+    name: Golem
+    featured: true
+    url: 'https://golem.network'
+-
+    name: Nexus
+    url: 'https://ico.nexus.social/'
+-
+    name: Swapy Network
+    url: 'https://swapy.network/'
+-
+    name: COPYTRACK
+    url: 'https://copytrack.io/'
+-
+    name: Parity
+    description: Ethereum client
+    url: 'https://parity.io/'
+-
+    name: Parity Technologies
+    url: 'https://paritytech.io/'
+-
+    name: Nucleus Vision
+    url: 'https://nucleus.vision/'
+-
+    name: Remme
+    url: 'https://remme.io'
+-
+    name: MyEtherWallet
+    featured: true
+    description: Ethereum blockchain interface
+    url: 'https://myetherwallet.com'
+    addresses:
+     ETH:
+      - '0xdecaf9cd2367cdbb726e904cd6397edfcae6068d'    
+-
+    name: AirSwap
+    url: 'https://airswap.io'
+-
+    name: IDEX
+    description: Decentralized exchange with centralized order book
+    url: 'https://idex.market'
+-
+    name: BTCManager
+    description: Crypto news site
+    url: 'http://btcmanager.com'
+-
+    name: Neodium Network
+    url: 'https://neodium.network'
+-
+    name: EtherScamDB
+    url: 'https://etherscamdb.info' 
+-
+    name: ESDB short URLs
+    url: 'https://esdb.link'
+-
+    name: CryptoScamDB
+    url: 'https://cryptoscamdb.org'
+-
+    name: CSDB short URLs
+    url: 'https://csdb.link'
+-
+    name: 1Inch
+    url: 'https://1inch.exchange/'
+    featured: true
+    description: "1Inch - No.1 Ethereum DeFi aggregator and high efficient AMM"
+    twitter: https://twitter.com/1inchNetwork
+    addresses:
+     ETH:
+      - '0x111111111117dc0aa78b770fa6a738034120c302'
+      - '0x11111254369792b2ca5d084ab5eea397ca8fa48b'
+      - '0x11111112542d85b3ef69ae05771c2dccff4faa26'
+      - '0xdb38ae75c5f44276803345f7f02e95a0aeef5944'

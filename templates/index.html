@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Home</h1>
+
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        {{ form.url.label }}
+        {{ form.url }}
+        {{ form.submit }}
+    </form>
+{% endblock %}
+
+{% block title %}
+    Home
+{% endblock %}
